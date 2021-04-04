@@ -34,7 +34,7 @@ variant="h3">
       <Grid alignItems="center" container direction="row"
 justify="center" spacing={0} style={{ margin: '20px 0', padding: '0 20px' }}>
         <ProfilePicture src="https://github.com/buggambit.png" />
-        <Box maxWidth="400px">
+        <Box maxWidth="800px">
           <Typography align="center" color="textPrimary" gutterBottom
 variant="h3">
             About Me
@@ -54,8 +54,12 @@ variant="h3">
 }
 
 const ProfilePicture = styled.img`
+  display: block;
   border-radius: 50%;
-  max-height: 350px;
+  max-height: 300px;
+  max-width: 300px;
+  width: auto;
+  height: auto;
   padding: 20px;
 `;
 

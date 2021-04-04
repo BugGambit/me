@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import NoSsr from '@material-ui/core/NoSsr';
 import { createMuiTheme, ThemeProvider as MuiThemeProvider, responsiveFontSizes, StylesProvider } from '@material-ui/core/styles';

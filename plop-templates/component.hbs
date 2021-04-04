@@ -1,0 +1,13 @@
+import React from 'react';
+
+interface {{ name }}Props {
+  children: React.ReactNode;
+}
+
+function {{ name }}({ children }: {{ name }}Props): JSX.Element {
+  return <p>I am a new component</p>;
+}
+
+{{ name }}.defaultProps = {} as Partial<{{ name }}Props>;
+
+export default {{ name }};
